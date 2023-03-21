@@ -1,0 +1,14 @@
+//body, margin 등 공통적으로 사용되는 css
+
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+//이름 앞글자에 _넣으면 css파일로 안바꿔 줌
+
+//@use를 사용하면 선언된 변수도 사용 가능함
+$메인칼라2: brown;
