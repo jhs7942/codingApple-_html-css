@@ -1,0 +1,28 @@
+.btn-red {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn2, .btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-red {
+  color: red;
+}
+
+.btn-green {
+  color: green;
+}
+
+.box {
+  width: 100%;
+}
+
+.background {
+  background: #2a4cb2;
+  font-size: 14px;
+}/*# sourceMappingURL=test.css.map */

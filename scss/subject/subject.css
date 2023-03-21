@@ -1,0 +1,17 @@
+.box-blue, .box-red, .box-green {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.box-green {
+  background: green;
+}
+
+.box-red {
+  background: red;
+}
+
+.box-blue {
+  background: blue;
+}/*# sourceMappingURL=subject.css.map */

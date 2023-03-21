@@ -1,0 +1,47 @@
+$메인칼라: #2a4cb2;
+$기본사이즈: 16px;
+
+// nesting 문법
+.main-bg {
+  h4 {
+  }
+
+  button {
+  }
+}
+// 기본 문법
+.main-bg h4 {
+}
+.main-bg button {
+}
+
+//@extend 문법
+//%는 임시클래스라는 뜻 -> 단독으로 사용불가능 함
+%btn {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+.btn2 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-red {
+  @extend %btn;
+  color: red;
+}
+.btn-green {
+  @extend .btn2;
+  color: green;
+}
+
+.box {
+  width: 100%;
+}
+
+.background {
+  background: $메인칼라;
+  font-size: ($기본사이즈 - 2px);
+}
