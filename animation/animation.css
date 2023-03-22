@@ -1,0 +1,25 @@
+.ani-text {
+  text-align: center;
+}
+.ani-text:hover {
+  animation-name: 왔다갔다;
+  animation-duration: 1s;
+}
+
+@keyframes 왔다갔다 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-100px);
+    /*margin-left 써도 transform이랑 기능은 같은데 대신 느림*/
+    /*margin-left: -100px;*/
+  }
+  75% {
+    transform: translateX(100px);
+    /*margin-left: 100px;*/
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
