@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <video src="bridge.mp4" controls></video> -->
+    <video
+      controls
+      autoplay
+      muted
+      preload="none"
+      poster="../img/iphone.png"
+      loop
+    >
+      <!-- 1번째 source 태그가 안되면 2번째 source 태그를 사용 -->
+      <source src="bridge.mp4" type="video/mp4" />
+      <source src="bridge_m.webm" type="video/mp4" />
+    </video>
+
+    <audio src="bass.mp3" controls muted autoplay></audio>
+  </body>
+</html>
