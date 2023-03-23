@@ -1,0 +1,63 @@
+@keyframes 이벤트1 {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.event1 {
+  margin: 20px;
+}
+
+.event1:hover {
+  animation-name: 이벤트1;
+  animation-duration: 0.5s;
+}
+@keyframes 이벤트2 {
+  0% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+    font-size: 70px;
+  }
+}
+
+.event2 {
+  margin: 20px;
+  text-align: center;
+}
+
+.event2:hover {
+  animation-name: 이벤트2;
+  animation-duration: 1s;
+}
+
+@keyframes 이벤트3 {
+  0% {
+    text-align: center;
+  }
+  100% {
+    width: 400px;
+  }
+}
+
+.event3 {
+  background: black;
+  width: 200px;
+  height: 400px;
+  color: white;
+}
+
+.event3:hover {
+  animation-name: 이벤트3;
+  animation-duration: 1s;
+}
