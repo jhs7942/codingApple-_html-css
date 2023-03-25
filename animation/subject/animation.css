@@ -43,10 +43,11 @@
 
 @keyframes 이벤트3 {
   0% {
-    text-align: center;
+    text-align: end;
   }
   100% {
     width: 400px;
+    text-align: center;
   }
 }
 
@@ -55,6 +56,7 @@
   width: 200px;
   height: 400px;
   color: white;
+  padding-top: 5%;
 }
 
 .event3:hover {
